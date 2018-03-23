@@ -1,5 +1,5 @@
-apt-get update
-apt-get install -y puppet
-puppet module install rtyler-jenkins
-puppet module install hubspot-nexus
-puppet module install maestrodev-sonarqube
+sudo apt-get update
+sudo apt-get install -y puppet
+sudo puppet module install rtyler-jenkins
+sudo puppet module install hubspot-nexus
+sudo puppet module install maestrodev-sonarqube
