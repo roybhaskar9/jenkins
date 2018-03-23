@@ -1,6 +1,6 @@
 echo 'Acquire::ForceIPv4 "true";' | sudo tee /etc/apt/apt.conf.d/99force-ipv4
 sudo apt-get update
-sudo apt-get install -y puppet
+sudo apt-get install -y puppet git
 sudo puppet module install rtyler-jenkins
 sudo puppet module install hubspot-nexus
 sudo puppet module install maestrodev-sonarqube
