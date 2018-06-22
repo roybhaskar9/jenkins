@@ -1,4 +1,3 @@
 # jenkins
-On Vagrant, use ubuntu for tomcat
-
-On Google Cloud, use centos for tomcat
+For Jenkins, use Ubuntu 16.04
+For Tomcat, use CentOS 7
